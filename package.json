@@ -1,0 +1,38 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.11",
+    "bootstrap": "^3.3.5",
+    "del": "^2.2.2",
+    "font-awesome": "^4.7.0",
+    "fullpage.js": "^2.9.4",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-css-spriter": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagesloaded": "^4.1.2",
+    "jquery": "^1.9.1",
+    "iscroll": "^5.2.0",
+    "jquery-lazyload": "^1.9.7",
+    "masonry-layout": "^4.2.0",
+    "move-js": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:iwe/mine.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

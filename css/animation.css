@@ -1,0 +1,28 @@
+.page-item .page-title{
+    transform: scale(.8);
+}
+.page-item:nth-child(1){
+    transform:translateX(-100vw);
+}
+
+.page-item:nth-child(2) .page-content{
+    transform:translateX(100vw);
+}
+.page-item:nth-child(2) .page-content .panel{
+    transition: transform 1s ease,border .1s ease,box-shadow .5s ease;
+    transform:scale(0);
+}
+.page-item:nth-child(3) .page-content .panel{
+    transform:scale(0);
+}
+#my_info .list-group .list-group-item{
+    transition: transform .5s ease-out,background-color .5s;
+}
+#my_info .list-group .list-group-item:hover{
+    transform:scale(1.05);
+    background-color: #e8e8e8;
+}
+.page-item:nth-child(2) .page-content .panel:hover,.page-item:nth-child(2) .page-content .panel:active{
+    border:1px solid #706e6e;
+    box-shadow: 0 0 5px #706e6e;
+}
